@@ -1,13 +1,113 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    display:flex;
+    justify-content: space-between;
+ 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.card{
+    width: 340px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    padding: auto;
+   
+    
+}
+.topContent{
+    padding: 20px;
+    width: 132px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 170px;
+}
+.top{
+    width: 100%;
+    background-color: #E5F7FD;
+}
+.top img{
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    padding: auto;
+    object-fit: cover;
+    box-shadow:5px 5px 5px rgb(130, 130, 130);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.top h1{
+    font-size: medium;
+    text-align: center;
+  
+    margin-bottom: -10px;
+}
+.top h4{
+    font-size:8px;
+    text-align: center;
+    font-weight: normal;
+  
+}
+
+.cardBody{
+    width: 100%;
+    height: 300px;
+    background-color: #072590;
+padding-left: 15px;
+padding-right: 15px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    color: #fff;
+
+}
+h1,h2,h3{
+    font-size: large;
+    font-weight: 500;
+}
+p{
+    font-size: 10px;
+    text-align: justify;
+    font-weight: normal;
+}
+
+.skills{
+    padding-top: 20px;
+}
+
+.footer{
+
+    height: 50px;
+    width: 100%;
+    background-color: #E5F7FD;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+
+
+}
+.icon{
+    padding-right: 10px;
+}
+.sideBlock{
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    height: 300px;
+}
+
+
+body{
+    background-color:#fff;
+    font-family: 'Inter', sans-serif;
 }
